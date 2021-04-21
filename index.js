@@ -1,7 +1,7 @@
-let num1 = parseInt(prompt('Enter the first number '))  || 0  ;
-let num2 = parseInt(prompt('Enter the second number ')) || 0  ;
+let num1 = parseInt(prompt('Enter the first number '))  || 0 ;
+let num2 = parseInt(prompt('Enter the second number ')) || 0 ;
 
-if (num1 > num2 ) {
+if (num1 > num2) {
     numb = 'The larger number is '+ num1 ;
     
 } else if (num2 > num1) {
@@ -9,8 +9,11 @@ if (num1 > num2 ) {
     
 }
 
-else{
+else if  (num2 = num1 ) {
     numb = 'The numbers are equal '; 
+} 
+else{
+    numb = 'number only '; 
 }
   
   alert (numb);
